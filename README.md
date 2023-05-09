@@ -1,5 +1,5 @@
 # A-Computer-Vision-Tool-for-Strawberry-Canopy-Geometric-Parameters-Estimation
-R scripts for strawberry canopy delineation and Python scripts for canopy size metrics calculations.
+**R scripts for strawberry canopy delineation and Python scripts for canopy size metrics calculations.**
 
 Individual strawberry plant detection is a critical step in the calculation of canopy structural parameters. An image processing workflow was established to perform canopy delineation from the UAV multispectral imagery. The input dataset for this workflow consists of four datasets: 
 1) Orthomosaic image and DSM generated from raw UAV images using the SfM algorithm;  
@@ -9,7 +9,8 @@ Individual strawberry plant detection is a critical step in the calculation of c
 Figure 1. Automatic canopy boundary delineation workflow
 
 
-Python scripts for strawberry size metrics extraction. 
+
+**Python scripts for strawberry size metrics extraction. **
 
 As proposed in many previous UAS-based studies, the canopy height model (CSM) model can be obtained by subtracting the Digital Terrain Model (DTM) from the DSM, which was calculated as:
 CSM = DSM - DTM
