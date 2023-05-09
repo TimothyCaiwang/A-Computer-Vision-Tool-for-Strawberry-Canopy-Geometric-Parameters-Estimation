@@ -7,6 +7,4 @@ Individual strawberry plant detection is a critical step in the calculation of c
 
 ![image](https://github.com/TimothyCaiwang/A-Computer-Vision-Tool-for-Strawberry-Canopy-Geometric-Parameters-Estimation/assets/41359035/b68135a9-9871-4415-abd6-e1e503b006ff)
 Figure 1. Automatic canopy boundary delineation workflow
-
-
 Python scripts for strawberry size metrics extraction. 
