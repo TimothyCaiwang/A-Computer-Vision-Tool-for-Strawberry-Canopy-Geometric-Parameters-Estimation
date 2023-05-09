@@ -6,6 +6,7 @@ Individual strawberry plant detection is a critical step in the calculation of c
 2) A shp layer containing a single point that is approximately located at the center of each plant, which can be generated using the UAV images in the early stage.
 
 The automatic canopy boundary delineation workflow is as follows:
+
 ![image](https://github.com/TimothyCaiwang/A-Computer-Vision-Tool-for-Strawberry-Canopy-Geometric-Parameters-Estimation/assets/41359035/b68135a9-9871-4415-abd6-e1e503b006ff)
 
 
@@ -18,6 +19,7 @@ CSM = DSM - DTM
 Combined with the strawberry canopy boundary file, structural parameters (area, volume, mean height, and standard deviation of canopy height) were calculated for each plant from the CSM model. The plant height was extracted as the difference between the 95th and 5th percentiles of CHM elevation values within the canopy boundary.
 
 The canopy structural parameter estimation workflow is as follws:
+
 ![image](https://github.com/TimothyCaiwang/A-Computer-Vision-Tool-for-Strawberry-Canopy-Geometric-Parameters-Estimation/assets/41359035/942373d5-afea-4d35-8258-334931e5442b)
 
 
