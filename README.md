@@ -10,6 +10,7 @@ Figure 1. Automatic canopy boundary delineation workflow
 
 
 Python scripts for strawberry size metrics extraction. 
+
 As proposed in many previous UAS-based studies, the canopy height model (CSM) model can be obtained by subtracting the Digital Terrain Model (DTM) from the DSM, which was calculated as:
 CSM = DSM - DTM
  
