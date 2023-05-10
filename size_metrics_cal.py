@@ -19,12 +19,6 @@ SizeMetrics_DIR = '/size_metrics/'
 
 file_names = os.listdir(CHM_DIR)
 
-# fi = CHM_DIR + '20211123_chm.tif'
-# SHPi = SHP_DIR+'20211123_ortho_clip_UTM_join.shp'
-# size_metrics = zonal_stats(SHPi, fi, stats = ['min', 'mean','percentile_95', 'max', 'count', 'sum', 'std', ], geojson_out=True)
-
-# csvFile = open("E:/xuwang/2017_ASH_LF_traits/17ASH_LF_"+dateStamp+"/heightResult_"+dateStamp+".csv",'wt')
-
 
 for fi in file_names:
     if(fi.endswith('.tif')):
